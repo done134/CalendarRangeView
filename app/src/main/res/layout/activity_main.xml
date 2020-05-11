@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.gentleyin.calendarrange.customviews.VerticalRangeCalenView
+        android:id="@+id/calendar"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        custom:calendar_tag="Test"
+        android:layout_centerHorizontal="true"
+        custom:disable_date_color="#ABABAB"
+        custom:editable="true"
+        custom:enable_time_selection="true"
+        custom:selected_date_color="@android:color/white"
+        custom:range_date_color="@color/range_bg_color"
+        custom:range_color="@color/range_bg_color_app"
+        custom:week_offset="0">
+
+    </com.gentleyin.calendarrange.customviews.VerticalRangeCalenView>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calendar"
+        android:layout_centerHorizontal="true"
+        android:text="Reset" />
+
+</RelativeLayout>

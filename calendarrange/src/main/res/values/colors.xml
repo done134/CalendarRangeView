@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="range_bg_color">#3498FD</color>
+
+    <!-- Fonts -->
+    <color name="title_color">#000</color>
+    <color name="date_color">#000</color>
+    <color name="week_color">#000</color>
+
+    <!-- Calendar Date -->
+    <color name="default_date_color">#3b4144</color>
+    <color name="disable_date_color">#BDBDBD</color>
+    <color name="range_date_color">@color/default_date_color</color>
+    <color name="selected_date_color">#FFF</color>
+
+    <color name="calendar_text">#474747</color>
+    <color name="range_bg_color_app">#EEF7FE</color>
+</resources>

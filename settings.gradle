@@ -1,0 +1,2 @@
+include ':app', ':calendarrange'
+rootProject.name='CalendarRangeView'
